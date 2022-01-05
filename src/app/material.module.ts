@@ -2,14 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 //Angular Material
-
-import { MatToolbarModule } from '@angular/material/toolbar'; 
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
-import { MatProgressBarModule } from '@angular/material/progress-bar'; 
-import { MatCardModule } from '@angular/material/card'; 
-import {MatSnackBarModule} from '@angular/material/snack-bar'; 
-import {MatDialogModule} from '@angular/material/dialog';
-import {MatInputModule} from '@angular/material/input';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatCardModule } from '@angular/material/card';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [],
@@ -21,16 +20,17 @@ import {MatInputModule} from '@angular/material/input';
     MatCardModule,
     MatSnackBarModule,
     MatDialogModule,
-    MatInputModule
+    MatInputModule,
   ],
-  exports: [//exports permite exportar a otros modulos del proyecto
+  exports: [
+    //exports permite exportar a otros modulos del proyecto
     MatToolbarModule,
     MatButtonModule,
     MatProgressBarModule,
     MatCardModule,
     MatSnackBarModule,
     MatDialogModule,
-    MatInputModule
-  ]
+    MatInputModule,
+  ],
 })
-export class MaterialModule { }
+export class MaterialModule {}
